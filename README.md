@@ -39,7 +39,7 @@ Each component is isolated to ensure clean separation of concerns and easy exten
 ---
 
 ## Project Structure
-
+```
 project/
 ├── main.py
 ├── password_checker/
@@ -49,13 +49,18 @@ project/
 |
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
 ## How to Run
 
 Ensure Python 3 is installed.
+```
+bash
+python main.py
+Enter a password when prompted to receive a strength score and improvement suggestions.
+```
 
 ---
 
